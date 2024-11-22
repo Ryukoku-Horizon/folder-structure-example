@@ -1,9 +1,25 @@
-# A folder-structure-example Flet app
+# フォルダ構造の例
+Fletで作成するアプリのフォルダ構造の例です。
 
-An example of a minimal Flet app.
+| これはほんの一例です。
 
-To run the app:
+- assets
+  
+  様々なデータを格納するフォルダ
+  - fonts
+    
+    フォントファイルを格納
+  - images
+    
+    画像ファイルを格納
+- data.db
+  
+  データベースファイル
+- db.py
 
-```
-flet run [app_directory]
-```
+  データベース操作を記述したプログラムファイル
+- main.py
+  メインのプログラムを記述したプログラムファイル
+
+- views.py
+  各Viewを記述したプログラムファイル
